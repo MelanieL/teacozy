@@ -5,6 +5,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0px;
 }
 
 .header {
@@ -14,6 +15,9 @@ body {
   border-bottom: 1px solid seashell;
   position: fixed;
   text-decoration: underline;
+  background-color: black;
+  padding: 0px 0px;
+  z-index: 10;
 }
 
 .logo {
@@ -30,4 +34,29 @@ body {
 
 nav a {
   padding: 20px 20px;
+  color: seashell;
+}
+
+nav a:visited {
+  color: seashell;
+}
+
+.ourmission {
+  padding-top: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourmission img {
+  height: 700px;
+  width: 1200px;
+  position: absolute;
+  z-index: 4;
+}
+
+.ourmissiontext {
+  background-color: black;
+  z-index: 5;
+  width: 1200px;
 }
