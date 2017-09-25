@@ -62,10 +62,11 @@ nav a:visited {
 }
 
 .teaofthemonth {
-  display: flex;
+  display: inline-flex;
   padding-top: 400px;
   align-items: center;
   flex-direction: column;
+  width: 1000px;
 }
 
 .featuredimg {
@@ -104,7 +105,6 @@ nav a:visited {
   position: absolute;
   z-index: 4;
   top: -50px;
-  left: 0;
 }
 
 .locationboxrow {
@@ -119,4 +119,19 @@ nav a:visited {
   z-index: 6;
   align-items: center;
   opacity: 1;
+}
+
+.contact {
+  height: 200px;
+}
+
+footer {
+  display: inline-flex;
+  width: 100%;
+}
+
+footer h5 {
+  text-align: left;
+  justify-content: flex-start;
+  margin-left: 20px;
 }
