@@ -60,3 +60,23 @@ nav a:visited {
   z-index: 5;
   width: 1200px;
 }
+
+.teaofthemonth {
+  display: flex;
+  padding-top: 400px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.featuredimg {
+  height: 200px;
+  width: 300px;
+}
+
+.featuredrow {
+  display: flex;
+}
+
+.imgbox {
+  padding: 20px 20px;
+}
